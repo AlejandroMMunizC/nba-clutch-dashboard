@@ -1,7 +1,27 @@
+# Python / venv
 venv/
+.venv/
+env/
 __pycache__/
+*.py[cod]
 .ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Track the project deliverables explicitly:
+#   - assets/        screenshots used in the README
+#   - outputs/       generated charts (PNG + interactive HTML)
+#   - data/          exported clean dataset (CSV)
+# Anything else of these types stays ignored.
 *.csv
 *.png
 *.html
-.DS_Store
+!assets/**
+!outputs/**
+!data/**
