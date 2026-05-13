@@ -4,7 +4,10 @@
 
 An exploratory data project that pulls player-level **clutch** stats straight from the NBA Stats API, builds a few custom efficiency metrics, and turns it all into a set of static charts plus an interactive multi-panel dashboard.
 
+**🏀 [Live demo →](https://alejandrommunizc.github.io/nba-clutch-dashboard/)**
+
 <p>
+  <a href="https://alejandrommunizc.github.io/nba-clutch-dashboard/"><img alt="Live demo" src="https://img.shields.io/badge/Live%20demo-online-success?logo=github"></a>
   <img alt="Season" src="https://img.shields.io/badge/Season-2025--26-1d428a">
   <img alt="Python"  src="https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white">
   <img alt="Pandas"  src="https://img.shields.io/badge/Pandas-data-150458?logo=pandas&logoColor=white">
@@ -30,7 +33,7 @@ The notebook produces a standalone HTML dashboard combining the four headline vi
 
 ![Clutch Performance Dashboard](assets/clutch_performance_dashboard.png)
 
-> Open the live version: [`outputs/nba_clutch_dashboard.html`](outputs/nba_clutch_dashboard.html) (hover for tooltips, zoom, etc.)
+> Open the live version: [alejandrommunizc.github.io/nba-clutch-dashboard](https://alejandrommunizc.github.io/nba-clutch-dashboard/) (hover for tooltips, zoom, etc.) — or browse the raw file at [`outputs/nba_clutch_dashboard.html`](outputs/nba_clutch_dashboard.html).
 
 ## Headline views
 
@@ -66,7 +69,9 @@ The dashed line is the expected clutch PPG given a player's overall PPG (linear 
 nba-clutch-dashboard/
 ├── nba_clutch_dashboard.ipynb   # main notebook — full analysis end to end
 ├── requirements.txt             # minimal dependencies
-├── assets/                      # screenshots used in this README
+├── index.html                   # GitHub Pages landing page
+├── .nojekyll                    # tells Pages not to run Jekyll
+├── assets/                      # screenshots used in this README + landing page
 ├── outputs/                     # generated charts (PNG + interactive HTML)
 │   ├── nba_clutch_dashboard.html        # combined multi-panel dashboard
 │   ├── clutch_efficiency_ratio.html     # interactive CER bar chart

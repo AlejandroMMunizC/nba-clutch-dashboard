@@ -15,7 +15,7 @@ Thumbs.db
 .idea/
 
 # Track the project deliverables explicitly:
-#   - assets/        screenshots used in the README
+#   - assets/        screenshots used in the README + landing page
 #   - outputs/       generated charts (PNG + interactive HTML)
 #   - data/          exported clean dataset (CSV)
 # Anything else of these types stays ignored.
@@ -25,3 +25,4 @@ Thumbs.db
 !assets/**
 !outputs/**
 !data/**
+!index.html
