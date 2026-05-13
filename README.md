@@ -4,7 +4,7 @@
 
 An exploratory data project that pulls player-level **clutch** stats straight from the NBA Stats API, builds a few custom efficiency metrics, and turns it all into a set of static charts plus an interactive multi-panel dashboard.
 
-**🏀 [Live demo →](https://alejandrommunizc.github.io/nba-clutch-dashboard/)**
+**[Live demo →](https://alejandrommunizc.github.io/nba-clutch-dashboard/)**
 
 <p>
   <a href="https://alejandrommunizc.github.io/nba-clutch-dashboard/"><img alt="Live demo" src="https://img.shields.io/badge/Live%20demo-online-success?logo=github"></a>
